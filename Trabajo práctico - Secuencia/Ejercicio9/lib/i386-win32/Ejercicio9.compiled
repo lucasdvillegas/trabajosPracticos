@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.2.2\bin\i386-win32\fpc.exe" Date="1449426723"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw2 -godwarfsets -gl -l -vewnhibq &quot;-FiC:\Users\lucas\OneDrive\Desktop\Introducción a la programación - Practico 2\Ejercicio9\lib\i386-win32&quot; &quot;-FuC:\Users\lucas\OneDrive\Desktop\Introducción a la programación - Practico 2\Ejercicio9\&quot; &quot;-FUC:\Users\lucas\OneDrive\Desktop\Introducción a la programación - Practico 2\Ejercicio9\lib\i386-win32\&quot; &quot;-FEC:\Users\lucas\OneDrive\Desktop\Introducción a la programación - Practico 2\Ejercicio9\&quot; &quot;-oC:\Users\lucas\OneDrive\Desktop\Introducción a la programación - Practico 2\Ejercicio9\Ejercicio9.exe&quot; Ejercicio9.lpr"/>
+</CONFIG>
