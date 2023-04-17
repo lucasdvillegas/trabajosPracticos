@@ -1,0 +1,31 @@
+program Ejercicio5;
+
+var
+  primerLado:real = 0;
+  segundoLado:real = 0;
+  tercerLado:real = 0;
+begin
+  Writeln('Programa que determina si un triangulo es equilatero, isosceles o escaleno');
+
+  writeln('Ingrese el primer lado del triangulo');
+  readln(primerLado);
+  writeln('Ingrese el segundo lado del triangulo');
+  readln(segundoLado);
+  writeln('Ingrese el tercer lado del triangulo');
+  readln(tercerLado);
+
+
+
+  if (primerLado = segundoLado) and (segundoLado = tercerLado) then
+     writeln('El triangulo es equilatero')
+     else
+         if (primerLado = segundoLado) or (tercerLado = primerLado) then
+            writeln('El triangulo es isosceles')
+    else
+        writeln('El triangulo es escaleno');
+
+
+  readln();
+
+end.
+

@@ -25,7 +25,7 @@
     </RunParams>
     <Units>
       <Unit>
-        <Filename Value="Ejercicio3.lpr"/>
+        <Filename Value="Ejercicio5.lpr"/>
         <IsPartOfProject Value="True"/>
       </Unit>
     </Units>
@@ -34,7 +34,7 @@
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="Ejercicio3"/>
+      <Filename Value="Ejercicio5"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>

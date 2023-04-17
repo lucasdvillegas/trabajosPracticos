@@ -28,4 +28,3 @@ begin
   readln();
 
 end.
-

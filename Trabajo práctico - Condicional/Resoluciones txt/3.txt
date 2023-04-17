@@ -1,4 +1,4 @@
-program Ejercicio2;
+program Ejercicio3;
 
 var
   primerNumero, segundoNumero, tercerNumero: Integer;
@@ -19,7 +19,7 @@ begin
        if ( primerNumero > tercerNumero ) then
         writeln( primerNumero, ' es el mayor')
         else
-            if ( segundoNumero > tercerNumero ) then
+            if ( segundoNumero > primerNumero ) then
                writeln( segundoNumero, ' es el mayor');
      end
     else
@@ -27,5 +27,4 @@ begin
 
   readln();
 
-end.
-
+end.       
