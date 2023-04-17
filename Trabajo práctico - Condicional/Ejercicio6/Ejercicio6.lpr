@@ -1,0 +1,27 @@
+program Ejercicio6;
+
+var
+  cantidad, importe:integer;
+  descuento, precioVenta:real;
+begin
+  Writeln('Programa que determina el importe final sobre la compra de uno o más productos');
+
+  writeln('Ingrese el importe del producto que desea comprar');
+  readln(importe);
+
+  writeln('Ingrese la cantidad del producto que desea comprar');
+  readln(cantidad);
+
+  descuento:= (importe * cantidad) * 0.10;
+  precioVenta:= (importe * cantidad);
+
+
+  if ( importe > 1000 ) then
+        writeln('El valor final de la compra es: ', ((precioVenta - descuento) * 1.21):4:2 )
+   else
+        writeln('El valor final de la compra es: ', (precioVenta * 1.21):4:2 );
+
+
+  readln();
+
+end.
